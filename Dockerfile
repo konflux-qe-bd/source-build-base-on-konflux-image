@@ -1,4 +1,4 @@
-FROM quay.io/konflux-ci/buildah-task:latest@sha256:b2d6c32d1e05e91920cd4475b2761d58bb7ee11ad5dff3ecb59831c7572b4d0c
+FROM quay.io/konflux-ci/buildah-task:latest@sha256:c8d667a4efa2f05e73e2ac36b55928633d78857589165bd919d2628812d7ffcb
 
 WORKDIR /src
 COPY main.py .
